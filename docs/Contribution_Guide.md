@@ -8,8 +8,12 @@
 - [Creating A Pull Request](#creating-a-pull-request)
 - [After PR](#after-pr)
 - [Next Steps](#next-steps)
+- [Resources](#resources)  
+- [Quick Review](#quick-review)
 
 ### Prerequisites  
+- Markdown 
+
 ### Forking the Project  
 #### Setting Up Your System
 
@@ -63,21 +67,25 @@ Now that you have a copy of your fork, there is work you will need to do to keep
    $ git status
    On branch NewBranch
    Your branch is up-to-date with 'origin/NewBranch'.
-   ```  
-   If your aren't on `NewBranch`, resolve outstanding files / commits and checko   ut the `NewBranch` branch  
+   ```
+
+   If your aren't on `NewBranch`, resolve outstanding files / commits and checko   ut the `NewBranch` branch
    ```bash
    $ git checkout NewBranch
    ```  
-  2. Do a pull with rebase against `upstream`  
-   ```bash
-  $ git pull --rebase upstream NewBranch
+
+   2. Do a pull with rebase against `upstream`  
+   ```bash  
+   $ git pull --rebase upstream NewBranch
    ```  
-   This will pull down all of the changes to the official NewBranch branch, without making an additional commit in your local repo.   
-  3. (_Optional_) Force push your updated NewBranch branch to your GitHub fork  
+   This will pull down all of the changes to the official NewBranch branch, without making an additional commit in your local repo.
+
+   3. (_Optional_) Force push your updated NewBranch branch to your GitHub fork
+
    ```bash 
    $ git push origin NewBranch --force
-   ```   
-   This will overwrite the NewBranch branch of your fork.  
+   ```
+   This will overwrite the NewBranch branch of your fork.
 
 ### Create A Branch
 
@@ -245,6 +253,14 @@ amend your commit with: `git commit --amend` This will update your existing
 commit. When you push it to your fork you will need to do a force push to
 overwrite your old commit: `git push --force`
 
-Be sure to post in the PR conversation that you have made the requested changes.
+Be sure to post in the PR conversation that you have made the requested changes.  
 
+### Resources ###  
+[Markdown1](https://www.markdowntutorial.com/)  
+[Markdown2](https://guides.github.com/features/mastering-markdown/)  
+[Fork the repo](https://help.github.com/articles/fork-a-repo/#platform-linux)    
+[Pull Request](https://yangsu.github.io/pull-request-tutorial/)
+[Github Beginner](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/)
 
+### Quick Review ###  
+[How to contribute practice?](https://github.com/magicansk/InfoSec_Practice/blob/master/CONTRIBUTORS_guide.md)
